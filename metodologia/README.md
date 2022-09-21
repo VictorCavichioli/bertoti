@@ -18,6 +18,10 @@ Python foi a primeiras linguagem que estudei, no primeiro semestre da graduaçã
 já fiz um projeto em Python de um assistente virtual, no meu trabalho utilizamos Python para integrar outros serviços, realizar operações de verificação no cluster e
 no Banco de Dados
 
+#### Java
+Java foi a terceira linguagem de programação que aprendi, antes de trabalhar com Python eu trabalhei uma pouco na parte de Billing, e muitos dos serviços são feitos
+em Java utilizando Spring Boot, juntando isso com os APIs na Fatec que foram em Java, agrego muito valor quando estamos falando em Java e principalmente REST APIs
+
 #### Projetos Integradores durante a graduação 
 Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.<br/>
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizamos extraídos de cada um deles.

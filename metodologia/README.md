@@ -57,8 +57,7 @@ com Angular utilizando o recurso two-way data binding.
 ### Contribuições pessoais
 - Exposição do endpoints das tabelas e camada de serviço;
 - Modelo básico de dados;
-- Módulo de padronização e tratamento de erros;
-- Módulo CORS de configuração web;
+- Módulo configurações da aplicação;
 - Integração do Front-end e Backend utilizando Typescript;
 - Desenvolvimento de algumas telas responsivas.
 

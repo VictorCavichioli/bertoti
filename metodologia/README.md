@@ -56,10 +56,32 @@ com Angular utilizando o recurso two-way data binding.
 
 ### Contribuições pessoais
 - Exposição do endpoints das tabelas e camada de serviço;
+<img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/resources.png"/>
+  Fui responsável por realizar a exposição de alguns endpoins baseado no modelo básico de dados, a seguir temos um exemplo de como isso é feito:
+ <br/>
+ <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/resourcesMethods.png"/> 
+ Como podemos ver, utilizando a camada de serviço (que é responsável pelas regras de negócio), realizamos a exposição da entidade para que seja acessada via
+ a uma URL na web, com o domínio que quisermos.
+  <br/>
+ <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/serviceExemplo.png"/>
+ Aqui temos um exemplo de um dos services que trabalhei, a camada de serviço é reponsável pelas regras de negócio da aplicação, ou seja, o que define o que 
+ a aplicação faz, o comportamento dela, aqui temos métodos de pesquisa, de inserção, de deleção, update, totalmente personalizados para a entidade em questão
+ no caso a entidade "Category".
+  <br/>
 - Modelo básico de dados;
+ <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/domain.png"/> 
+ Como fui responsável pelo template inicial do projeto, produzi o modelo básico de dados, que seria as classes que representam entidades
+ <br/>
+ <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/domainExemplo.png"/> 
+ Como vemos acima, esse é um exemplo de como é feito uma entidade utilizando o spring-boot, elas necessitam da anotação @Entity para serem compreendidas como
+ classes que são representações de entidades/tabelas, temos também outras anotações que são colocadas nos atributos para defini-los, cada atributo da classe é
+ uma coluna da tabela
+  <br/>
 - Módulo de configurações da aplicação;
+ <br/>
 - Integração do Front-end e Backend utilizando Typescript;
+ <br/>
 - Desenvolvimento de algumas telas responsivas.
-
+ <br/>
 ### Aprendizados Efetivos 
 

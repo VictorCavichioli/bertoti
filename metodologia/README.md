@@ -78,10 +78,13 @@ com Angular utilizando o recurso two-way data binding.
  uma coluna da tabela
   <br/>
 - Módulo de configurações da aplicação;
+<img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/config-module.png"/> 
  <br/>
 - Integração do Front-end e Backend utilizando Typescript;
+<img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/service-front.png"/> 
  <br/>
 - Desenvolvimento de algumas telas responsivas.
+<img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/html.png"/> 
  <br/>
 ### Aprendizados Efetivos 
 

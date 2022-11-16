@@ -51,8 +51,8 @@ Para construção da nos interface utilizamos o Angular, por alguns motivos, ele
 
 ### Ferramentas: IntelliJ IDEA, Visual Studio Code, GitHub e Figma
 </details></h4>
-<h4><details>
-<summary>Contribuições pessoais</summary>
+
+### Contribuições pessoais
 
 - Exposição do endpoints das tabelas e camada de serviço;
 
@@ -108,7 +108,6 @@ Fiz também parte da integração do serviço em Angular com o backend, através
 <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/html.png"/> 
 
 Por fim, participei também da criação de algumas telas utilizando HTML, Bootstrap e Angular, realizando as análises e implementando recursos do Angular de acordo com a necessidade de cada tela e de cada endpoint ao qual o frontend iria consumir.
-</details></h4>
 
 #### Aprendizados Efetivos 
 

@@ -8,7 +8,8 @@ Tenho 18 anos e trabalho com DevOps. <br/>
 
 <img src="https://avatars.githubusercontent.com/u/79488234?v=4"/>
 
-### Meus principais conhecimentos
+<h4><details>
+<summary>Meus principais conhecimentos</summary>
 
 #### Python
 
@@ -20,19 +21,19 @@ no Banco de Dados
 Java foi a terceira linguagem de programação que aprendi, antes de trabalhar com Python eu trabalhei uma pouco na parte de Billing, e muitos dos serviços são feitos
 em Java utilizando Spring Boot, juntando isso com os APIs na Fatec que foram em Java, agrego muito valor quando estamos falando em Java e principalmente REST APIs
 
+</details></h4>
+
 #### Projetos Integradores durante a graduação 
 Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.<br/>
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizamos extraídos de cada um deles.
 
-# Projeto 3: 1º Semestre de 2022
-
+<h4><details>
+<summary>Projeto 3: 1º Semestre de 2022</summary>
 
 ### Parceiro Acadêmico
 MidAll
 
-
 ### Visão do Projeto
-
 
 A empresa MidAll situada no Parque Tecnológico de São José dos Campos, propôs o seguinte desafio baseado na metodologia ágil Scrum. "Temos um problema para criação de promoções em um Ecommerce. Precisamos de uma solução inteligente onde, as mecânicas das promoções sejam feitas de forma flexível e de rápida atualização no sistema".
 
@@ -49,9 +50,10 @@ Para relização da API utilizamos a linguagem Java (Outro requisito Fatec) e o 
 Para construção da nos interface utilizamos o Angular, por alguns motivos, ele é um framework typescript, que é uma linguagem de progamação semelhante o Java e ao mesmo tempo tendo as caracteríticas do javascript, também utilizamos o Angular pois uma das dores do cliente era atualização simultânea de dados, o que podemos fazer facilmente com Angular utilizando o recurso two-way data binding.
 
 ### Ferramentas: IntelliJ IDEA, Visual Studio Code, GitHub e Figma
-
-<h1><details>
+</details></h4>
+<h4><details>
 <summary>Contribuições pessoais</summary>
+
 - Exposição do endpoints das tabelas e camada de serviço;
 
 <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/resources.png"/>
@@ -106,7 +108,7 @@ Fiz também parte da integração do serviço em Angular com o backend, através
 <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/html.png"/> 
 
 Por fim, participei também da criação de algumas telas utilizando HTML, Bootstrap e Angular, realizando as análises e implementando recursos do Angular de acordo com a necessidade de cada tela e de cada endpoint ao qual o frontend iria consumir.
-</details></h1>
+</details></h4>
 
 #### Aprendizados Efetivos 
 

@@ -50,7 +50,6 @@ Para relização da API utilizamos a linguagem Java (Outro requisito Fatec) e o 
 Para construção da nos interface utilizamos o Angular, por alguns motivos, ele é um framework typescript, que é uma linguagem de progamação semelhante o Java e ao mesmo tempo tendo as caracteríticas do javascript, também utilizamos o Angular pois uma das dores do cliente era atualização simultânea de dados, o que podemos fazer facilmente com Angular utilizando o recurso two-way data binding.
 
 ### Ferramentas: IntelliJ IDEA, Visual Studio Code, GitHub e Figma
-</details></h4>
 
 ### Contribuições pessoais
 
@@ -111,3 +110,4 @@ Por fim, participei também da criação de algumas telas utilizando HTML, Boots
 
 #### Aprendizados Efetivos 
 
+</details></h4>

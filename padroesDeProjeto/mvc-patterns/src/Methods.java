@@ -59,10 +59,12 @@ public class Methods {
         }
     }
 
-    public String printCpuUsage(){
-        Double cpu = OS_BEAN.getSystemCpuLoad() * 100;
+    public static String printProcessorUsage() {
+        int cpuCount = OS_BEAN.getAvailableProcessors();
+        double load = OS_BEAN.getSystemCpuLoad();
+        String formattedLoad = load >= 0 ? formatDouble(load * 100) + "%" : "unknown";
 
-        return cpu.toString();
+        return formattedLoad;
     }
 
 }

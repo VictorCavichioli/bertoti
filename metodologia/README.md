@@ -33,7 +33,7 @@ Abaixo todos estes projetos serão descritos, detalhando o problema, solução p
 ### Parceiro Acadêmico
 MidAll
 
-### Visão do Projeto
+### Objetivo do Projeto
 
 A empresa MidAll situada no Parque Tecnológico de São José dos Campos, propôs o seguinte desafio baseado na metodologia ágil Scrum. "Temos um problema para criação de promoções em um Ecommerce. Precisamos de uma solução inteligente onde, as mecânicas das promoções sejam feitas de forma flexível e de rápida atualização no sistema".
 
@@ -63,15 +63,14 @@ Fui responsável por realizar a exposição de alguns endpoins baseado no modelo
 <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/resourcesMethods.png"/> 
 
 
-Como podemos ver, utilizando a camada de serviço (que é responsável pelas regras de negócio), realizamos a exposição da entidade para que seja acessada via
-a uma URL na web, com o domínio que quisermos.
+Como podemos ver, definindo a classe como um RestController e mapeando ela para uma URL desejada estaremos expondo aquele ponto de acesso quando iniciamos o TomCat, realizamos a exposição da entidade para que seja acessada via a uma URL na web, com o domínio que quisermos. Nesse caso, tudo que é relacionado a entidade Category terá seu ponto de acesso nesse endpoint que definimos, por ele realizamos as operações que desejamos e as devidas manipulações utilizando os métodos HTTPs para que sejam feitas operações no BD, na tabela Category.
 
 
 <img src="https://github.com/VictorCavichioli/bertoti/blob/main/metodologia/image-meto/serviceExemplo.png"/>
 
 Aqui temos um exemplo de um dos services que trabalhei, a camada de serviço é reponsável pelas regras de negócio da aplicação, ou seja, o que define o que 
 a aplicação faz, o comportamento dela, aqui temos métodos de pesquisa, de inserção, de deleção, update, totalmente personalizados para a entidade em questão
-no caso a entidade "Category".
+no caso a entidade "Category". É importante separar os Controllers dos Services não só por questão de organização, mas para garantir eficiência também, validações e regrar de negócio não são feitas nos controllers, para isso que defimos serviços.
 
 
 - Modelo básico de dados;
@@ -109,5 +108,7 @@ Fiz também parte da integração do serviço em Angular com o backend, através
 Por fim, participei também da criação de algumas telas utilizando HTML, Bootstrap e Angular, realizando as análises e implementando recursos do Angular de acordo com a necessidade de cada tela e de cada endpoint ao qual o frontend iria consumir.
 
 #### Aprendizados Efetivos 
+
+Durante esse projeto eu ainda não tinha muita noção de como funcionava a o conjunto do backend e frontend, como que se utilizava os protocolos de comunicação entre serviços feitos em diferentes linguagens e nem quais configurações havia de ser feito tanto no back quanto no front para garantir que essa comunicação acontessesse de maneira controlada e esperada, portanto entendo que os meus aprendizados efetivos foram como integrar microservices, como relizar modularizar configurações que devem subir na inicialização do TomCat e como estabelecer protocolos de comunicação e expor a aplicação como um todo de maneira adequada para a web.
 
 </details></h4>
